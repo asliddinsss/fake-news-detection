@@ -1,4 +1,4 @@
-# 🔍 Multilingual Fake News Detection
+# Multilingual Fake News Detection
 ### Detecting Misinformation in Uzbek, Russian & English using Fine-tuned Transformers
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square&logo=python)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Fake news is not just an English-language problem. In Central Asia, misinformation spreads rapidly across Telegram channels, local news sites, and social media — largely unchecked because existing detection tools are built for English only.
 
@@ -25,7 +25,7 @@ This project fine-tunes **XLM-RoBERTa** (a multilingual transformer pre-trained 
 
 ---
 
-## 📊 Results
+## Results
 
 | Model | Language | Accuracy | Macro F1 |
 |---|---|---|---|
@@ -84,7 +84,7 @@ fake-news-detection/
 
 ---
 
-## 📦 Datasets
+## Datasets
 
 This project combines three public datasets:
 
@@ -99,11 +99,11 @@ The Uzbek subset was scraped from local news outlets (kun.uz, gazeta.uz, daryo.u
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/fake-news-detection.git
+git clone https://github.com/asliddinsss/fake-news-detection.git
 cd fake-news-detection
 ```
 
@@ -140,7 +140,7 @@ jupyter notebook notebooks/
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 We use **XLM-RoBERTa-base** (`xlm-roberta-base`) with a custom 3-class classification head:
 
@@ -179,7 +179,7 @@ FC(256 → 3) + Softmax
 
 ---
 
-## 🌍 Real-World Impact
+## Real-World Impact
 
 - **Telegram monitoring:** The model can be deployed as a bot to flag suspicious posts in Uzbek/Russian Telegram channels before they go viral
 - **Newsroom assistance:** Local journalists can use it to quickly fact-check incoming wire reports
@@ -190,7 +190,7 @@ This is **Asliddin Builds #02**, part of an ongoing series of ML projects tackli
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - [ ] Expand Uzbek dataset to 10,000+ samples
 - [ ] Add claim-level fact checking (not just article-level)
@@ -199,7 +199,7 @@ This is **Asliddin Builds #02**, part of an ongoing series of ML projects tackli
 
 ---
 
-## 👤 Author
+## Author
 
 **Asliddin** — Grade 9, Presidential School, Namangan, Uzbekistan
 AI/ML Researcher | APIO Finalist 2025 | TEDx Speaker
